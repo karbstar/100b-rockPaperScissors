@@ -24,6 +24,13 @@ def playerChoice():
   1: paper
   2: scissors
   '''
+  x=input("enter your thing")
+  if x=="rock":
+    value=0
+  elif x=="paper":
+    value=1
+  elif x=="scissors":
+    value=2
   return value
 
 
