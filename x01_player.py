@@ -24,12 +24,12 @@ def playerChoice():
   1: paper
   2: scissors
   '''
-  x=input("enter your thing")
-  if x=="rock":
+  x=int(input("enter your thing \n1=rock\n2=paper\n3=scissors"))
+  if x==1:
     value=0
-  elif x=="paper":
+  elif x==2:
     value=1
-  elif x=="scissors":
+  elif x==3:
     value=2
   return value
 
